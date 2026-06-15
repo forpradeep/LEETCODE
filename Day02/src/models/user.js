@@ -15,7 +15,7 @@ const userSchema = new Schema({
     },
     emailId:{
         type:String,
-        required: true,
+        required:true,
         unique:true,
         trim: true,
         lowercase:true,
@@ -33,6 +33,10 @@ const userSchema = new Schema({
     },
     problemSolved:{
         type:[string]
+    },
+    password:{
+        type:String,
+        required: true
     }
 },{
     timestamps:true
