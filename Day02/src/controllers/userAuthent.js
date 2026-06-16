@@ -54,18 +54,18 @@ const login = async (req,res)=>{
 
 // logOut feature
 
-const logout = async(req,res)=>{
+// const logout = async(req,res)=>{
 
-    try{
-       res.clearCookie('token');
-        res.status(200).send("Logged Out Successfully");
+//     try{
+//        res.clearCookie('token');
+//         res.status(200).send("Logged Out Successfully");
 
-    }
-    catch(err){
-        res.status(400).send("Error: "+err);
+//     }
+//     catch(err){
+//         res.status(400).send("Error: "+err);
         
 
-    }
-}
+//     }
+// }
 
 
